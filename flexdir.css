@@ -1,0 +1,50 @@
+.container{
+    
+    font-size: 25px;
+padding: 0px;
+margin: 0px;
+border: 2px solid salmon;
+display: flex;
+
+}
+.common{
+    border:0.5px dashed green;
+    flex:1;
+    margin: 10px;
+}
+.items{
+    flex:1;
+    border:0.1px solid black;
+    text-align: center;
+}
+.one{
+    background-color: aqua;  
+   
+   }
+   .two{
+       background-color: blue;
+       
+   }
+   .three{
+       background-color: blueviolet;
+       
+   }
+   .five{
+       background-color: coral;
+   }
+   .rowdir{
+       display: flex;
+    
+   }
+   .columndir{
+       display: flex;
+       flex-direction: column;
+   }
+   .rowre{
+    display: flex;
+    flex-direction: row-reverse;
+   }
+   .columnre{
+       display: flex;
+       flex-direction: column-reverse;
+   }
